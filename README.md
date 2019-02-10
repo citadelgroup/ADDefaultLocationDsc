@@ -1,2 +1,2 @@
 # ADDefaultLocationDsc
-Repository for setting Active Directory default locations
+Module for setting Active Directory default locations
