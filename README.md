@@ -14,10 +14,6 @@ Provides a mechanism to set the default Active Directory location for Computer o
 #### Requirements
 
 * This must be run on an Active Directory Domain Controller
-$IsSingleInstance
-    
-    [DscProperty(Mandatory)]
-    [string] $TargetDN
 
 #### Parameters
 
