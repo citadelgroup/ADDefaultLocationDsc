@@ -5,7 +5,7 @@ class ADDefaultComputerLocation {
     [string] $IsSingleInstance
     
     [DscProperty(Mandatory)]
-    [string] $TargetDN    
+    [string] $TargetDN
 
     [ADDefaultComputerLocation] Get() {
         $this.TargetDN = (Get-ADDomain).ComputersContainer
