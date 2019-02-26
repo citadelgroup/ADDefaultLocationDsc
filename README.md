@@ -1,6 +1,6 @@
 # ADDefaultLocationDsc
 
-ADDefaultLocationDsc is a module written to provide addition Active Directory configuration resources.
+ADDefaultLocationDsc is a module written to provide additional Active Directory configuration resources.
 
 ## Resources
 
