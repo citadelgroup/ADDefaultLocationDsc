@@ -1,6 +1,6 @@
 @{
     # Version number of this module.
-    moduleVersion = '0.3.0'
+    moduleVersion = '1.0.0'
     
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -15,7 +15,7 @@
     CompanyName = 'Citadel Group'
     
     # Copyright statement for this module
-    Copyright = '(c) 2018 Citadel Group. All rights reserved.'
+    Copyright = '(c) 2019 Citadel Group. All rights reserved.'
     
     # Description of the functionality provided by this module
     Description = 'This module provides the functionality needed to manipulate the default AD locations for storing User and Computer objects.'
@@ -54,8 +54,8 @@
     # FormatsToProcess = @()
     
     # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
-    NestedModules = @('DSCResources\ADDefaultComputerLocation\ADDefaultComputerLocation.psd1',
-                      'DSCResources\ADDefaultUserLocation\ADDefaultUserLocation.psd1')
+    NestedModules = @('DSCClassResources\ADDefaultComputerLocation\ADDefaultComputerLocation.psd1',
+                      'DSCClassResources\ADDefaultUserLocation\ADDefaultUserLocation.psd1')
     
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
     FunctionsToExport = @()
@@ -96,7 +96,7 @@
             # IconUri = ''
     
             # ReleaseNotes of this module
-            ReleaseNotes = 'Initial Release'
+            ReleaseNotes = 'V1 Release'
     
         } # End of PSData hashtable
     
